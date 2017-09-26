@@ -20,6 +20,7 @@ int          check_plateau(int fd, char *line)
         i++;
     i++;
     g_fill.plat_y = ft_atoi(&line[i]);
+    g_fill.ned_y = g_fill.plat_y;
     g_fill.plat = (char**)malloc(sizeof(char*) * g_fill.plat_x + 1);
     get_next_line(fd, &line);
     while (g_fill.plat_x > 0) {
@@ -40,7 +41,7 @@ int          check_plateau(int fd, char *line)
     }
     h = 0;
     while(h < 14) {
-        printf("%s\n", g_fill.plat[h]);
+      //  printf("%s\n", g_fill.plat[h]);
         h++;
     }
     return (0);

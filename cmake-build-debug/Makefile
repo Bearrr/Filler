@@ -636,6 +636,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/main.c.s
 .PHONY : main.c.s
 
+my_trun.o: my_trun.c.o
+
+.PHONY : my_trun.o
+
+# target to build an object file
+my_trun.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/my_trun.c.o
+.PHONY : my_trun.c.o
+
+my_trun.i: my_trun.c.i
+
+.PHONY : my_trun.i
+
+# target to preprocess a source file
+my_trun.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/my_trun.c.i
+.PHONY : my_trun.c.i
+
+my_trun.s: my_trun.c.s
+
+.PHONY : my_trun.s
+
+# target to generate assembly for a file
+my_trun.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/my_trun.c.s
+.PHONY : my_trun.c.s
+
 work_with_ned.o: work_with_ned.c.o
 
 .PHONY : work_with_ned.o
@@ -783,6 +810,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... my_trun.o"
+	@echo "... my_trun.i"
+	@echo "... my_trun.s"
 	@echo "... work_with_ned.o"
 	@echo "... work_with_ned.i"
 	@echo "... work_with_ned.s"

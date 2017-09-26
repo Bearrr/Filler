@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/i/ireva/CLionProjects/Filler/ft_strsub.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_strsub.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/get_next_line.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/get_next_line.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/main.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/main.c.o"
+  "/nfs/2016/i/ireva/CLionProjects/Filler/my_trun.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/my_trun.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/work_with_ned.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/work_with_ned.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/work_with_piece.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/work_with_piece.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/work_with_plateau.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/work_with_plateau.c.o"

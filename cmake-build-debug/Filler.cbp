@@ -151,6 +151,9 @@
 		<Unit filename="/nfs/2016/i/ireva/CLionProjects/Filler/main.c">
 			<Option target="Filler"/>
 		</Unit>
+		<Unit filename="/nfs/2016/i/ireva/CLionProjects/Filler/my_trun.c">
+			<Option target="Filler"/>
+		</Unit>
 		<Unit filename="/nfs/2016/i/ireva/CLionProjects/Filler/test.txt">
 			<Option target="Filler"/>
 		</Unit>

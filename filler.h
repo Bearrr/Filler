@@ -23,9 +23,14 @@ typedef  struct         s_fil
     struct s_fil     *next;
     char               **piece;
     char               **plat;
+    int                **ned;
     int                 ned_x;
+    int                 ned_y;
     int                 x;
     int                 y;
+    int                 prior;
+    int                 cord_x;
+    int                 cord_y;
 
 
 }                       t_fil;
@@ -34,7 +39,8 @@ t_fil                   g_fill;
 int     filler(int a);
 int     check_piece(int fd, char *line);
 int     check_plateau(int fd, char *line);
-void        work_with_ned();
+void    work_with_ned();
+void    my_turn();
 
 
 #endif //FILLER_FILLER_H

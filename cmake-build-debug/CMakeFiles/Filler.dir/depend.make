@@ -65,6 +65,12 @@ CMakeFiles/Filler.dir/main.c.o: ../get_next_line.h
 CMakeFiles/Filler.dir/main.c.o: ../libft.h
 CMakeFiles/Filler.dir/main.c.o: ../main.c
 
+CMakeFiles/Filler.dir/my_trun.c.o: .././Libft/libft.h
+CMakeFiles/Filler.dir/my_trun.c.o: ../filler.h
+CMakeFiles/Filler.dir/my_trun.c.o: ../get_next_line.h
+CMakeFiles/Filler.dir/my_trun.c.o: ../libft.h
+CMakeFiles/Filler.dir/my_trun.c.o: ../my_trun.c
+
 CMakeFiles/Filler.dir/work_with_ned.c.o: .././Libft/libft.h
 CMakeFiles/Filler.dir/work_with_ned.c.o: ../filler.h
 CMakeFiles/Filler.dir/work_with_ned.c.o: ../get_next_line.h

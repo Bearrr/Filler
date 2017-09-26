@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Filler.dir/work_with_piece.c.o"
   "CMakeFiles/Filler.dir/work_with_plateau.c.o"
   "CMakeFiles/Filler.dir/work_with_ned.c.o"
+  "CMakeFiles/Filler.dir/my_trun.c.o"
   "Filler.pdb"
   "Filler"
 )

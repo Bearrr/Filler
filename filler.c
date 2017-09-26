@@ -9,11 +9,12 @@
 void         check_player(char *line)
 {
     if (ft_strstr(line, "p1")) {
-        printf("Ya player 1\n");
+       // printf("Ya player 1\n");
         g_fill.p1 = 'O';
+        g_fill.p2 = 'X';
     }
     if (ft_strstr(line, "p2")) {
-        printf("Ya player 2\n");
+       // printf("Ya player 2\n");
         g_fill.p2 = 'X';
     }
 
@@ -27,6 +28,7 @@ int         filler(int a)
     line = NULL;
     int h;
     int i;
+    g_fill.prior = 2147483647;
 
     if ((fd = open("test.txt", O_RDONLY))== -1)
     {
@@ -42,8 +44,9 @@ int         filler(int a)
         if (ft_strstr(line, "Piece"))
              check_piece(fd, line);
     }
-    printf("\n");
+   // printf("\n");
     work_with_ned();
+    my_turn();
 
     return (1);
 }
