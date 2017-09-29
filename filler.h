@@ -20,6 +20,8 @@ typedef  struct         s_fil
     int                 plat_y;
     char                p1;
     char                p2;
+    char                pp1;
+    char                pp2;
     struct s_fil     *next;
     char               **piece;
     char               **plat;
@@ -37,8 +39,8 @@ typedef  struct         s_fil
 
 t_fil                   g_fill;
 int     filler(int a);
-int     check_piece(int fd, char *line);
-int     check_plateau(int fd, char *line);
+void     check_piece(int fd, char *line);
+void     check_plateau(int fd, char *line);
 void    work_with_ned();
 void    my_turn();
 

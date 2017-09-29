@@ -9,13 +9,16 @@
 void         check_player(char *line)
 {
     if (ft_strstr(line, "p1")) {
-       // printf("Ya player 1\n");
         g_fill.p1 = 'O';
+        g_fill.pp1 = 'o';
         g_fill.p2 = 'X';
+        g_fill.pp2 = 'x';
     }
     if (ft_strstr(line, "p2")) {
-       // printf("Ya player 2\n");
-        g_fill.p2 = 'X';
+        g_fill.p1 = 'X';
+        g_fill.pp1 = 'x';
+        g_fill.p2 = 'O';
+        g_fill.pp2 = 'o';
     }
 
 }
@@ -26,15 +29,13 @@ int         filler(int a)
 
     int fd;
     line = NULL;
-    int h;
-    int i;
-    g_fill.prior = 2147483647;
 
-    if ((fd = open("test.txt", O_RDONLY))== -1)
-    {
-        ft_putendl("open failed on file file");
-        return  (-1);
-    }
+   fd = 0;
+//   if ((fd = open("test.txt", O_RDONLY))== -1)
+//    {
+//        ft_putendl("open failed on file file");
+//        return  (-1);
+//    }
     while (get_next_line(fd, &line) > 0)
     {
         if (line[0] == '$')
@@ -44,10 +45,6 @@ int         filler(int a)
         if (ft_strstr(line, "Piece"))
              check_piece(fd, line);
     }
-   // printf("\n");
-    work_with_ned();
-    my_turn();
-
     return (1);
 }
 

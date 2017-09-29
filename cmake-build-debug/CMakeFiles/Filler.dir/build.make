@@ -609,6 +609,54 @@ CMakeFiles/Filler.dir/my_trun.c.o.provides: CMakeFiles/Filler.dir/my_trun.c.o.re
 CMakeFiles/Filler.dir/my_trun.c.o.provides.build: CMakeFiles/Filler.dir/my_trun.c.o
 
 
+CMakeFiles/Filler.dir/ft_putnbr.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/ft_putnbr.c.o: ../ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Filler.dir/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/ft_putnbr.c.o   -c /nfs/2016/i/ireva/CLionProjects/Filler/ft_putnbr.c
+
+CMakeFiles/Filler.dir/ft_putnbr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/ft_putnbr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ireva/CLionProjects/Filler/ft_putnbr.c > CMakeFiles/Filler.dir/ft_putnbr.c.i
+
+CMakeFiles/Filler.dir/ft_putnbr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/ft_putnbr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ireva/CLionProjects/Filler/ft_putnbr.c -o CMakeFiles/Filler.dir/ft_putnbr.c.s
+
+CMakeFiles/Filler.dir/ft_putnbr.c.o.requires:
+
+.PHONY : CMakeFiles/Filler.dir/ft_putnbr.c.o.requires
+
+CMakeFiles/Filler.dir/ft_putnbr.c.o.provides: CMakeFiles/Filler.dir/ft_putnbr.c.o.requires
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putnbr.c.o.provides.build
+.PHONY : CMakeFiles/Filler.dir/ft_putnbr.c.o.provides
+
+CMakeFiles/Filler.dir/ft_putnbr.c.o.provides.build: CMakeFiles/Filler.dir/ft_putnbr.c.o
+
+
+CMakeFiles/Filler.dir/ft_putstr.c.o: CMakeFiles/Filler.dir/flags.make
+CMakeFiles/Filler.dir/ft_putstr.c.o: ../ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Filler.dir/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Filler.dir/ft_putstr.c.o   -c /nfs/2016/i/ireva/CLionProjects/Filler/ft_putstr.c
+
+CMakeFiles/Filler.dir/ft_putstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Filler.dir/ft_putstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ireva/CLionProjects/Filler/ft_putstr.c > CMakeFiles/Filler.dir/ft_putstr.c.i
+
+CMakeFiles/Filler.dir/ft_putstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Filler.dir/ft_putstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ireva/CLionProjects/Filler/ft_putstr.c -o CMakeFiles/Filler.dir/ft_putstr.c.s
+
+CMakeFiles/Filler.dir/ft_putstr.c.o.requires:
+
+.PHONY : CMakeFiles/Filler.dir/ft_putstr.c.o.requires
+
+CMakeFiles/Filler.dir/ft_putstr.c.o.provides: CMakeFiles/Filler.dir/ft_putstr.c.o.requires
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putstr.c.o.provides.build
+.PHONY : CMakeFiles/Filler.dir/ft_putstr.c.o.provides
+
+CMakeFiles/Filler.dir/ft_putstr.c.o.provides.build: CMakeFiles/Filler.dir/ft_putstr.c.o
+
+
 # Object files for target Filler
 Filler_OBJECTS = \
 "CMakeFiles/Filler.dir/main.c.o" \
@@ -633,7 +681,9 @@ Filler_OBJECTS = \
 "CMakeFiles/Filler.dir/work_with_piece.c.o" \
 "CMakeFiles/Filler.dir/work_with_plateau.c.o" \
 "CMakeFiles/Filler.dir/work_with_ned.c.o" \
-"CMakeFiles/Filler.dir/my_trun.c.o"
+"CMakeFiles/Filler.dir/my_trun.c.o" \
+"CMakeFiles/Filler.dir/ft_putnbr.c.o" \
+"CMakeFiles/Filler.dir/ft_putstr.c.o"
 
 # External object files for target Filler
 Filler_EXTERNAL_OBJECTS =
@@ -661,9 +711,11 @@ Filler: CMakeFiles/Filler.dir/work_with_piece.c.o
 Filler: CMakeFiles/Filler.dir/work_with_plateau.c.o
 Filler: CMakeFiles/Filler.dir/work_with_ned.c.o
 Filler: CMakeFiles/Filler.dir/my_trun.c.o
+Filler: CMakeFiles/Filler.dir/ft_putnbr.c.o
+Filler: CMakeFiles/Filler.dir/ft_putstr.c.o
 Filler: CMakeFiles/Filler.dir/build.make
 Filler: CMakeFiles/Filler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable Filler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable Filler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Filler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -694,6 +746,8 @@ CMakeFiles/Filler.dir/requires: CMakeFiles/Filler.dir/work_with_piece.c.o.requir
 CMakeFiles/Filler.dir/requires: CMakeFiles/Filler.dir/work_with_plateau.c.o.requires
 CMakeFiles/Filler.dir/requires: CMakeFiles/Filler.dir/work_with_ned.c.o.requires
 CMakeFiles/Filler.dir/requires: CMakeFiles/Filler.dir/my_trun.c.o.requires
+CMakeFiles/Filler.dir/requires: CMakeFiles/Filler.dir/ft_putnbr.c.o.requires
+CMakeFiles/Filler.dir/requires: CMakeFiles/Filler.dir/ft_putstr.c.o.requires
 
 .PHONY : CMakeFiles/Filler.dir/requires
 

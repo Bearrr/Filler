@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Filler.dir/work_with_plateau.c.o"
   "CMakeFiles/Filler.dir/work_with_ned.c.o"
   "CMakeFiles/Filler.dir/my_trun.c.o"
+  "CMakeFiles/Filler.dir/ft_putnbr.c.o"
+  "CMakeFiles/Filler.dir/ft_putstr.c.o"
   "Filler.pdb"
   "Filler"
 )

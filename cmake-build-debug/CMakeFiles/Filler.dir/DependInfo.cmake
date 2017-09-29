@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/i/ireva/CLionProjects/Filler/ft_memset.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_memset.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/ft_putchar.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_putchar.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/ft_putendl.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_putendl.c.o"
+  "/nfs/2016/i/ireva/CLionProjects/Filler/ft_putnbr.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_putnbr.c.o"
+  "/nfs/2016/i/ireva/CLionProjects/Filler/ft_putstr.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_putstr.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/ft_strchr.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_strchr.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/ft_strcmp.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_strcmp.c.o"
   "/nfs/2016/i/ireva/CLionProjects/Filler/ft_strcpy.c" "/nfs/2016/i/ireva/CLionProjects/Filler/cmake-build-debug/CMakeFiles/Filler.dir/ft_strcpy.c.o"

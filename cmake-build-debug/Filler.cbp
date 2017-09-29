@@ -109,6 +109,12 @@
 		<Unit filename="/nfs/2016/i/ireva/CLionProjects/Filler/ft_putendl.c">
 			<Option target="Filler"/>
 		</Unit>
+		<Unit filename="/nfs/2016/i/ireva/CLionProjects/Filler/ft_putnbr.c">
+			<Option target="Filler"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ireva/CLionProjects/Filler/ft_putstr.c">
+			<Option target="Filler"/>
+		</Unit>
 		<Unit filename="/nfs/2016/i/ireva/CLionProjects/Filler/ft_strchr.c">
 			<Option target="Filler"/>
 		</Unit>

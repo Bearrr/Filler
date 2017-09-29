@@ -1,11 +1,11 @@
 #include "filler.h"
 
-int          check_plateau(int fd, char *line)
+void          check_plateau(int fd, char *line)
 {
     int i;
     int j;
     int k;
-    int h;
+ //   int h;
     int x;
 
     j = 0;
@@ -22,6 +22,7 @@ int          check_plateau(int fd, char *line)
     g_fill.plat_y = ft_atoi(&line[i]);
     g_fill.ned_y = g_fill.plat_y;
     g_fill.plat = (char**)malloc(sizeof(char*) * g_fill.plat_x + 1);
+    g_fill.plat[g_fill.plat_x + 1] = NULL;
     get_next_line(fd, &line);
     while (g_fill.plat_x > 0) {
         if (get_next_line(fd, &line) > 0)
@@ -39,11 +40,9 @@ int          check_plateau(int fd, char *line)
         x = 4;
         g_fill.plat_x--;
     }
-    h = 0;
+   /* h = 0;
     while(h < 14) {
-      //  printf("%s\n", g_fill.plat[h]);
+        printf("%s\n", g_fill.plat[h]);
         h++;
-    }
-    return (0);
-
+    }*/
 }

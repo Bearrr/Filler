@@ -285,6 +285,60 @@ ft_putendl.c.s:
 	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putendl.c.s
 .PHONY : ft_putendl.c.s
 
+ft_putnbr.o: ft_putnbr.c.o
+
+.PHONY : ft_putnbr.o
+
+# target to build an object file
+ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putnbr.c.o
+.PHONY : ft_putnbr.c.o
+
+ft_putnbr.i: ft_putnbr.c.i
+
+.PHONY : ft_putnbr.i
+
+# target to preprocess a source file
+ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putnbr.c.i
+.PHONY : ft_putnbr.c.i
+
+ft_putnbr.s: ft_putnbr.c.s
+
+.PHONY : ft_putnbr.s
+
+# target to generate assembly for a file
+ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putnbr.c.s
+.PHONY : ft_putnbr.c.s
+
+ft_putstr.o: ft_putstr.c.o
+
+.PHONY : ft_putstr.o
+
+# target to build an object file
+ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putstr.c.o
+.PHONY : ft_putstr.c.o
+
+ft_putstr.i: ft_putstr.c.i
+
+.PHONY : ft_putstr.i
+
+# target to preprocess a source file
+ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putstr.c.i
+.PHONY : ft_putstr.c.i
+
+ft_putstr.s: ft_putstr.c.s
+
+.PHONY : ft_putstr.s
+
+# target to generate assembly for a file
+ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/Filler.dir/build.make CMakeFiles/Filler.dir/ft_putstr.c.s
+.PHONY : ft_putstr.c.s
+
 ft_strchr.o: ft_strchr.c.o
 
 .PHONY : ft_strchr.o
@@ -771,6 +825,12 @@ help:
 	@echo "... ft_putendl.o"
 	@echo "... ft_putendl.i"
 	@echo "... ft_putendl.s"
+	@echo "... ft_putnbr.o"
+	@echo "... ft_putnbr.i"
+	@echo "... ft_putnbr.s"
+	@echo "... ft_putstr.o"
+	@echo "... ft_putstr.i"
+	@echo "... ft_putstr.s"
 	@echo "... ft_strchr.o"
 	@echo "... ft_strchr.i"
 	@echo "... ft_strchr.s"

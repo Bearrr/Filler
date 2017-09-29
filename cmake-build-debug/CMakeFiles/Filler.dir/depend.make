@@ -22,6 +22,12 @@ CMakeFiles/Filler.dir/ft_putchar.c.o: ../libft.h
 CMakeFiles/Filler.dir/ft_putendl.c.o: ../ft_putendl.c
 CMakeFiles/Filler.dir/ft_putendl.c.o: ../libft.h
 
+CMakeFiles/Filler.dir/ft_putnbr.c.o: ../ft_putnbr.c
+CMakeFiles/Filler.dir/ft_putnbr.c.o: ../libft.h
+
+CMakeFiles/Filler.dir/ft_putstr.c.o: ../ft_putstr.c
+CMakeFiles/Filler.dir/ft_putstr.c.o: ../libft.h
+
 CMakeFiles/Filler.dir/ft_strchr.c.o: ../ft_strchr.c
 CMakeFiles/Filler.dir/ft_strchr.c.o: ../libft.h
 
